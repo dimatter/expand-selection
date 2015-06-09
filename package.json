@@ -3,9 +3,11 @@
   "main": "./lib/main",
   "version": "0.2.1",
   "description": "Expand the selection based on the scope.",
-  "activationEvents": [
-    "expand-selection:expand"
-  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "expand-selection:expand"
+    ]
+  },
   "repository": "https://github.com/mrolla/expand-selection",
   "license": "MIT",
   "engines": {
